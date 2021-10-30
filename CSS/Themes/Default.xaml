@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xmlns:ui="clr-namespace:CSS.UI">
+    <FontFamily x:Key="$PIFontStyle">Resources/Poppins/#Poppins</FontFamily>
+
+    <ResourceDictionary x:Key="Center">
+        <HorizontalAlignment x:Key="HorizontalAlignment">Center</HorizontalAlignment>
+        <VerticalAlignment x:Key="VerticalAlignment">Center</VerticalAlignment>
+    </ResourceDictionary>
+
+    <ResourceDictionary x:Key="BaseFont">
+        <s:Double x:Key="FontSize">12</s:Double>
+        <FontWeight x:Key="FontWeight">Normal</FontWeight>
+        <FontFamily x:Key="FontFamily">$PIFontStyle</FontFamily>
+    </ResourceDictionary>
+
+    <ResourceDictionary x:Key="TitleText">
+        <ui:CSS x:Key="BaseFont"/>
+        <s:Double x:Key="FontSize">28</s:Double>
+        <FontWeight x:Key="FontWeight">SemiBold</FontWeight>
+    </ResourceDictionary>
+
+    <ResourceDictionary x:Key="LabelText">
+        <ui:CSS x:Key="BaseFont Center"/>
+    </ResourceDictionary>
+</ResourceDictionary> 

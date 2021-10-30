@@ -1,0 +1,14 @@
+﻿%center {
+    text-align: center;
+}
+
+%base-font {
+    font-size: 12em;
+    font-weight: 400;
+}
+
+.title-text {
+    @extend %center;
+    @extend %base-font;
+    font-size: 28em;
+}

@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <FontFamily x:Key="$FontStyle">Resources/Poppins/#Poppins</FontFamily>
+
+    <ResourceDictionary x:Key="BaseFont">
+        <s:Double x:Key="FontSize">12</s:Double>
+        <FontWeight x:Key="FontWeight">Normal</FontWeight>
+        <FontFamily x:Key="FontFamily">$FontStyle</FontFamily>
+    </ResourceDictionary>
+</ResourceDictionary>
