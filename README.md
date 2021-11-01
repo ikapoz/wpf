@@ -103,9 +103,9 @@ In WPF
         xmlns:ui="clr-namespace:CSS.UI"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel Orientation="Vertical">
-        <TextBlock Text="Title" ui:UI.CSS="TitleText"/>
-        <TextBlock Text="Title Centered" ui:UI.CSS="TitleText Center"/>
-        <TextBlock Text="Body text" ui:UI.CSS="BaseFont"/>
+        <TextBlock Text="Title" ui:X.CSS="TitleText"/>
+        <TextBlock Text="Title Centered" ui:X.CSS="TitleText Center"/>
+        <TextBlock Text="Body text" ui:X.CSS="BaseFont"/>
     </StackPanel>
 </Window>
 ```
